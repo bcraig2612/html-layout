@@ -1,70 +1,80 @@
 body {
-  margin: 0;
-  padding: 25px;
+  background-color: white;
 }
 
-.con-one {
-  width: 100%;
-  border: 5px solid black;
-  padding: 10px;
-  box-sizing: border-box;
+.section-one {
+  width: 95vw;
+  height: 215px;
+  background-color: white;
+  border: solid black;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
-.square-one {
+.purple-rectangle {
   height: 150px;
   width: 50px;
-  background-color: blueviolet;
+  background-color: rebeccapurple;
   display: inline-block;
+  margin-left: 10px;
+  margin-top: 55px;
 }
 
-.square-two {
-  height: 200px;
+.green-rectangle {
+  height: 195px;
   width: 400px;
   display: inline-block;
-  background-color: forestgreen;
-  margin: 0 50px;
+  margin-left: 45px;
+  background-color: rgb(4, 109, 4);
 }
 
-.circle-one {
-  height: 200px;
-  width: 200px;
+.blue-circle {
+  height: 192px;
+  width: 192px;
   border-radius: 50%;
   background-color: skyblue;
   display: inline-block;
+  margin-left: 45px;
 }
 
-.con-two {
-  width: 100%;
-  border: 5px dotted black;
-  padding: 50px;
-  box-sizing: border-box;
+.section-two {
+  width: 95vw;
+  height: 310px;
+  background-color: white;
+  border: 3px dotted black;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.tan-rectangle {
+  width: 85vw;
+  height: 250px;
+  background-color: lemonchiffon;
+  box-shadow: 6px 5px 7px 0px black;
+  margin-top: 30px;
+  margin-left: 75px;
+}
+
+.section-three {
+  width: 52vw;
+  height: 335px;
+  background-color: white;
+  border-left: solid;
+  border-top: solid; 
+  border-width: thin;
+  border-color: rgb(179, 172, 172); 
+  box-shadow: 3px 3px rgb(179, 172, 172);
+  margin: 0 auto;
   margin-top: 25px;
 }
 
-.box-shadow {
-  width: 100%;
-  height: 200px;
-  background-color: lemonchiffon;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
-.con-three {
-  width: 50%;
-  border: 1px solid #ccc;
-  background-color: white;
-  padding: 100px;
-  box-sizing: border-box;
-  margin: 25px auto;
-  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.25);
-  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.25);
-}
-
-.con-three h1 {
-  width: 100%;
-  text-align: center;
+.section-three h1 {
   color: navy;
+  width: 40%;
+  font-size: 26px;
+  font-weight: 900;
+  text-align: center;
+  margin-left: 150px;
+  margin-top: 150px;
   letter-spacing: 10px;
 }
