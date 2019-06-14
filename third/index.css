@@ -1,5 +1,4 @@
-body,
-html {
+body, html {
   margin: 0;
   padding: 0;
 }
@@ -32,7 +31,7 @@ html {
   padding: 50px;
 }
 
-.row-3 {
+.row-3{
   background-color: #4a90e2;
 }
 
